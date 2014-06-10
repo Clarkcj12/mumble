@@ -1,0 +1,9 @@
+name: Mumble
+main: me.Clarkcj.mumble.Mumble
+version: 1.0
+author: Clarkcj
+description: >
+             Mumble Plugin.
+commands:
+  mumble:
+    description: Sends mumble information
