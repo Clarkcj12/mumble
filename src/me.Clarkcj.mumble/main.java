@@ -30,6 +30,10 @@ public class Mumble extends JavaPlugin{
 		Player player = (Player) sender;
 		if (commandLabel.equalsIgnoreCase("mumble")){
 			player.sendMessage(ChatColor.GOLD + "You can get mumble at http://mumble.sourceforge.net/!");
+			
+	        if (commandLabel.equalsIgnoreCase("info")){
+	        	player.sendMessage(ChatColor.GOLD + "The mumble's info is test.mumble.com");
+	        }
 		}
 		return false;
 	}
