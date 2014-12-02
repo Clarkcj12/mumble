@@ -7,3 +7,5 @@ description: >
 commands:
   mumble:
     description: Sends mumble information
+  info:
+    description: Sends Info about the mumble
