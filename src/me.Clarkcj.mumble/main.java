@@ -22,7 +22,7 @@ public class Mumble extends JavaPlugin{
     @Override
     public void onEnable(){
     	PluginDescriptionFile pdfFile = this.getDescription();
-    	this.logger.info(pdfFile.getName() + " Version " + pdfFile.getVersion() + "Has Been Enabled!");
+    	this.logger.info(pdfFile.getName() + " Version: " + pdfFile.getVersion() + "Has Been Enabled!");
   
     }
     
