@@ -1,0 +1,5 @@
+#This is the Configuration File for my Mumble Plugin
+#Author: Corey Clark (Clarkcj)
+#Version 1.1 Beta
+Server: test.mumble.com
+Port: 22565
