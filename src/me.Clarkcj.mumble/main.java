@@ -22,19 +22,19 @@ public class Mumble extends JavaPlugin{
     @Override
     public void onEnable(){
     	PluginDescriptionFile pdfFile = this.getDescription();
-    	this.logger.info(pdfFile.getName() + " Version: " + pdfFile.getVersion() + "Has Been Enabled!");
-  
+    	this.logger.info(pdfFile.getName() + " Version " + pdfFile.getVersion() + "Has Been Enabled!");
+    	getConfig().options().copyDefaults(true);
+    	saveConfig();
     }
     
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
 		Player player = (Player) sender;
 		if (commandLabel.equalsIgnoreCase("mumble")){
-			player.sendMessage(ChatColor.GOLD + "You can get mumble at http://mumble.sourceforge.net/!");
-			
-	        if (commandLabel.equalsIgnoreCase("info")){
-	        	player.sendMessage(ChatColor.GOLD + "The mumble's info is test.mumble.com");
+			player.sendMessage(ChatColor.GOLD + "You can get mumble at http://mumble.sourceforge.net/!"); //send command
+		}else if (commandLabel.equalsIgnoreCase("mumbleinfo")){
+			player.sendMessage(ChatColor.GOLD + "The mumble's info is " + getConfig().getString("Server"));
+			player.sendMessage(ChatColor.GOLD + "The Port: " + getConfig().getString("Port"));
 	        }
-		}
 		return false;
 	}
 }
