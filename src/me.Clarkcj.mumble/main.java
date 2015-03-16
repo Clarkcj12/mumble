@@ -29,11 +29,12 @@ public class Mumble extends JavaPlugin{
     
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
 		Player player = (Player) sender;
-		if (commandLabel.equalsIgnoreCase("mumble")){
-			player.sendMessage(ChatColor.GOLD + "You can get mumble at http://mumble.sourceforge.net/!"); //send command
-		}else if (commandLabel.equalsIgnoreCase("mumbleinfo")){
-			player.sendMessage(ChatColor.GOLD + "The mumble's info is " + getConfig().getString("Server"));
+		if (cmd.getName().equalsIgnoreCase("mumble")){
+			player.sendMessage(ChatColor.GOLD + "Download Mumble: http://mumble.sourceforge.net/"); //send command
+		}else if (cmd.getName().equalsIgnoreCase("mumbleinfo")){
+			player.sendMessage(ChatColor.GOLD + "Mumble Server Address: " + getConfig().getString("Server"));
 			player.sendMessage(ChatColor.GOLD + "The Port: " + getConfig().getString("Port"));
+			player.sendMessage(ChatColor.GOLD + "Server Password: " + getConfig().getString("Password"));
 	        }
 		return false;
 	}
