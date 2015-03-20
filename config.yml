@@ -1,5 +1,13 @@
 #This is the Configuration File for my Mumble Plugin
 #Author: Corey Clark (Clarkcj)
-#Version 1.1 Beta
+#Version 1.5 Beta
+
+#Mumble Server Info
 Server: test.mumble.com
 Port: 22565
+Password: None
+
+#TeamSpeak Server Info
+TServer: test.teamspeak.com
+TSPort: 2265
+TSPassword: None
