@@ -1,11 +1,15 @@
-name: Mumble
-main: me.Clarkcj.mumble.Mumble
-version: 1.1
+name: VoicePlus
+main: me.Clarkcj.voiceplus.VoicePlus
+version: 1.6
 author: Clarkcj
 description: >
-             Mumble Plugin.
+            A Plugin that a player to find out what the mumble and teamspeak info is.
 commands:
   mumble:
-    description: Sends mumble information
+    description: Sends Mumble Download Link
   mumbleinfo:
-    description: Sends user mumble info
+    description: Sends Mumble Server Info
+  teamspeak:
+    description: Sends TeamSpeak Download Link
+  teamspeakinfo:
+    description: Sends TeamSpeak Server Info
