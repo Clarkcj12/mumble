@@ -1,4 +1,4 @@
-package me.Clarkcj.mumble;
+package me.Clarkcj.voiceplus;
 
 import java.io.IOException;
 import java.util.logging.Logger;
@@ -9,9 +9,9 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Mumble extends JavaPlugin{
+public class VoicePlus extends JavaPlugin{
 	public final Logger logger = Logger.getLogger("Minecraft");
-    public static Mumble plugin;
+    public static VoicePlus plugin;
     
     @Override
     public void onDisable(){
@@ -41,6 +41,13 @@ public class Mumble extends JavaPlugin{
 			sender.sendMessage(ChatColor.GOLD + "The Port: " + getConfig().getString("Port"));
 			sender.sendMessage(ChatColor.GOLD + "Server Password: " + getConfig().getString("Password"));
 	        }
+		if (cmd.getName().equalsIgnoreCase("teamspeak")){
+			sender.sendMessage(ChatColor.GOLD + "Download Teamspeak: http://www.teamspeak.com/?page=downloads"); // Send Player Download Link
+		}else if(cmd.getName().equalsIgnoreCase("teamspeakinfo")){ //Send Player Server Info
+			sender.sendMessage(ChatColor.GOLD + " TeamSpeak Server: " + getConfig().getString("TServer"));
+			sender.sendMessage(ChatColor.GOLD + "The Port: " + getConfig().getString("TSPort"));
+			sender.sendMessage(ChatColor.GOLD + "Server Password " + getConfig().getString("TSPassword"));			
+		}
 		return false;
 	}
 }
