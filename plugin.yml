@@ -1,6 +1,7 @@
 name: VoicePlus
 main: me.Clarkcj.voiceplus.VoicePlus
-version: 1.6
+version: 1.7.2 Beta
+
 author: Clarkcj
 description: >
             A Plugin that a player to find out what the mumble and teamspeak info is.
