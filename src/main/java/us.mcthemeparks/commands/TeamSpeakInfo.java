@@ -1,4 +1,4 @@
-package com.mcthemeparks.commands;
+package us.mcthemeparks.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;

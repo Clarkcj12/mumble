@@ -1,10 +1,10 @@
-package com.mcthemeparks;
+package us.mcthemeparks;
 
-import com.mcthemeparks.commands.MumbleInfo;
-import com.mcthemeparks.commands.TeamSpeakExe;
-import com.mcthemeparks.commands.TeamSpeakInfo;
-import com.mcthemeparks.commands.VoicePlusExe;
 import org.bukkit.plugin.java.JavaPlugin;
+import us.mcthemeparks.commands.MumbleInfo;
+import us.mcthemeparks.commands.TeamSpeakExe;
+import us.mcthemeparks.commands.TeamSpeakInfo;
+import us.mcthemeparks.commands.VoicePlusExe;
 
 /**
  * ==================================================================

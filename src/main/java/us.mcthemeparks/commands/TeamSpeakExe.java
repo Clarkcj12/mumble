@@ -1,4 +1,4 @@
-package com.mcthemeparks.commands;
+package us.mcthemeparks.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -16,17 +16,14 @@ import org.bukkit.entity.Player;
  * void any agreements with you, the third party. Thanks
  * ==================================================================
  */
-public class MumbleInfo implements CommandExecutor {
-    int MServer;
-    int MPort;
+public class TeamSpeakExe implements CommandExecutor {
 
-
+    @Override
     public boolean onCommand(CommandSender s, Command c, String label, String[] a) {
         if (s instanceof Player) {
             Player p = ((Player) s);
             if (a.length > 0) {
-                s.sendMessage(ChatColor.GOLD + "Mumble Server Address: " + MServer);
-                s.sendMessage(ChatColor.GOLD + "Port: " + MPort);
+                s.sendMessage(ChatColor.GOLD + "Download TeamSpeak 3 at https://www.teamspeak.com/downloads");
             }
         }
         return false;

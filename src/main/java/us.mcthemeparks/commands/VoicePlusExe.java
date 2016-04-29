@@ -1,4 +1,4 @@
-package com.mcthemeparks.commands;
+package us.mcthemeparks.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -16,16 +16,17 @@ import org.bukkit.entity.Player;
  * void any agreements with you, the third party. Thanks
  * ==================================================================
  */
-public class TeamSpeakExe implements CommandExecutor {
+public class VoicePlusExe implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender s, Command c, String label, String[] a) {
         if (s instanceof Player) {
             Player p = ((Player) s);
             if (a.length > 0) {
-                s.sendMessage(ChatColor.GOLD + "Download TeamSpeak 3 at https://www.teamspeak.com/downloads");
+                s.sendMessage(ChatColor.GOLD + "Download Mumble at: http://mumble.sourceforge.net"); //Send Player Download Link
             }
         }
         return false;
     }
 }
+

@@ -1,4 +1,4 @@
-package com.mcthemeparks.commands;
+package us.mcthemeparks.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -16,17 +16,19 @@ import org.bukkit.entity.Player;
  * void any agreements with you, the third party. Thanks
  * ==================================================================
  */
-public class VoicePlusExe implements CommandExecutor {
+public class MumbleInfo implements CommandExecutor {
+    int MServer;
+    int MPort;
 
-    @Override
+
     public boolean onCommand(CommandSender s, Command c, String label, String[] a) {
         if (s instanceof Player) {
             Player p = ((Player) s);
             if (a.length > 0) {
-                s.sendMessage(ChatColor.GOLD + "Download Mumble at: http://mumble.sourceforge.net"); //Send Player Download Link
+                s.sendMessage(ChatColor.GOLD + "Mumble Server Address: " + MServer);
+                s.sendMessage(ChatColor.GOLD + "Port: " + MPort);
             }
         }
         return false;
     }
 }
-
