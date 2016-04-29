@@ -1,5 +1,5 @@
 name: VoicePlus
-main: me.clarkcj.mumble.VoicePlus
+main: us.mcthemeparks.mumble.VoicePlus
 version: mvn-version
 authors: [Clarkcj, willies952002]
 
