@@ -6,6 +6,10 @@
     <name>VoicePlus</name>
     <version>1.5-dev</version>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <developers>
         <developer>
             <id>Clarkcj</id>
