@@ -26,6 +26,6 @@ public class TeamSpeakExe implements CommandExecutor {
                 s.sendMessage(ChatColor.GOLD + "Download TeamSpeak 3 at https://www.teamspeak.com/downloads");
             }
         }
-        return false;
+        return true;
     }
 }

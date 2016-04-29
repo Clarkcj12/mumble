@@ -28,6 +28,6 @@ public class TeamSpeakInfo implements CommandExecutor {
                 s.sendMessage(ChatColor.GOLD + "TeamSpeak Port: " + TPort);
             }
         }
-        return false;
+        return true;
     }
 }

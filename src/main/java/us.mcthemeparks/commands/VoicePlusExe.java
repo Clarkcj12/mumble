@@ -26,7 +26,7 @@ public class VoicePlusExe implements CommandExecutor {
                 s.sendMessage(ChatColor.GOLD + "Download Mumble at: http://mumble.sourceforge.net"); //Send Player Download Link
             }
         }
-        return false;
+        return true;
     }
 }
 

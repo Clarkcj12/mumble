@@ -29,6 +29,6 @@ public class MumbleInfo implements CommandExecutor {
                 s.sendMessage(ChatColor.GOLD + "Port: " + MPort);
             }
         }
-        return false;
+        return true;
     }
 }
