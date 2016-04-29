@@ -1,0 +1,8 @@
+# This Is The Configuration File For VoicePlus
+# Authors: Corey Clark (Clarkcj), and William Surgeon (willies952002)
+# Version 1.5-dev
+
+MServer: '<Mumble Server Address>'
+MPort: '<Mumble Port>'
+TServer: '<Team Speak Server Address>'
+TPort: '<Team Speak Port>'
