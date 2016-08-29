@@ -19,6 +19,8 @@ This README would normally document whatever steps are necessary to get your app
 
 ## Changelog
 
+*1.7.4 - Added Discord About, and Versioning Bump
+*1.7.3 - Added Discord Support
 *1.7.2 - Changed from http:// to https:// in the download link for Mumble & Updated Spigot API.
 
 ## Configuration
@@ -32,4 +34,5 @@ MServer: '<Mumble Server Address>'
 MPort: '<Mumble Port>'
 TServer: '<Team Speak Server Address>'
 TPort: '<Team Speak Port>'
+Discord: '<Discord Invite Link>'
 ```
