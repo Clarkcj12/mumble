@@ -23,7 +23,7 @@ public class VoicePlusExe implements CommandExecutor {
         if (s instanceof Player) {
             Player p = ((Player) s);
             if (a.length > 0) {
-                s.sendMessage(ChatColor.GOLD + "Download Mumble at: http://mumble.sourceforge.net"); //Send Player Download Link
+                s.sendMessage(ChatColor.GOLD + "Download Mumble at: https://mumble.sourceforge.net"); //Send Player Download Link
             }
         }
         return true;
