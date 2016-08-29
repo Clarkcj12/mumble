@@ -27,3 +27,6 @@ commands:
   Discord:
     description: Sends Link About Discord
     usage: /<command>
+  Skype:
+    description: Sends User Link To Join Skype Group
+    usage: /<command>

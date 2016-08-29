@@ -1,9 +1,10 @@
 # This Is The Configuration File For VoicePlus
 # Authors: Corey Clark (Clarkcj), and William Surgeon (willies952002)
-# Version 1.7.4-dev
+# Version 1.7.5-dev
 
 Discord: '<Discord Invite Link>'
 MServer: '<Mumble Server Address>'
 MPort: '<Mumble Port>'
 TServer: '<Team Speak Server Address>'
 TPort: '<Team Speak Port>'
+Skype: '<Skype Group Link>'
