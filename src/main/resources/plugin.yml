@@ -21,6 +21,9 @@ commands:
     description: Sends Teamspeak Download Link
     aliases: ts
     usage: /<command>
-  Discord:
+  DiscordInvite:
     descirption: Sends Discord Invite Link
+    usage: /<command>
+  Discord:
+    description: Sends Link About Discord
     usage: /<command>

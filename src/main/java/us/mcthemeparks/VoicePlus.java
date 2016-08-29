@@ -48,6 +48,7 @@ public class VoicePlus extends JavaPlugin {
         getCommand("TeamSpeak").setExecutor(new TeamSpeakExe());
         getCommand("TeamSpeakInfo").setExecutor(new TeamSpeakInfo());
         getCommand("Discord").setExecutor(new DiscordExe());
+        getCommand("DiscordInvite").setExecutor(new DiscordInvite());
     }
 
     private void registerEvents() {
