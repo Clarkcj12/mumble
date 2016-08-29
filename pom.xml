@@ -4,7 +4,7 @@
     <groupId>us.mcthemeparks</groupId>
     <artifactId>voiceplus</artifactId>
     <name>VoicePlus</name>
-    <version>1.7.2-dev</version>
+    <version>1.7.3-dev</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

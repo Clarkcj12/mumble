@@ -3,10 +3,7 @@ package us.mcthemeparks;
 import com.domnian.util.TaskChain;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.mcstats.Metrics;
-import us.mcthemeparks.commands.MumbleInfo;
-import us.mcthemeparks.commands.TeamSpeakExe;
-import us.mcthemeparks.commands.TeamSpeakInfo;
-import us.mcthemeparks.commands.VoicePlusExe;
+import us.mcthemeparks.commands.*;
 
 import java.io.IOException;
 
@@ -50,6 +47,7 @@ public class VoicePlus extends JavaPlugin {
         getCommand("MumbleInfo").setExecutor(new MumbleInfo());
         getCommand("TeamSpeak").setExecutor(new TeamSpeakExe());
         getCommand("TeamSpeakInfo").setExecutor(new TeamSpeakInfo());
+        getCommand("Discord").setExecutor(new DiscordExe());
     }
 
     private void registerEvents() {
