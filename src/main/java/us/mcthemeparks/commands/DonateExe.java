@@ -22,4 +22,3 @@ public class DonateExe implements CommandExecutor{
         return true;
     }
 }
-}
