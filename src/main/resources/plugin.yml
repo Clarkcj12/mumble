@@ -30,3 +30,17 @@ commands:
   Skype:
     description: Sends User Link To Join Skype Group
     usage: /<command>
+  website:
+    description: Sends User Website
+    usage: /<command>
+  IRC:
+    description: Sends User IRC Info
+    aliases: irc
+    usage: /<command>
+  donate:
+    description: Sends Donation Website
+    usage: /<command>
+  facebook:
+    description: Sends Facebook Page
+    aliases: fb
+    usage: /<command>

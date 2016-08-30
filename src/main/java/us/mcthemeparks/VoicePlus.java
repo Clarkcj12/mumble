@@ -37,7 +37,7 @@ public class VoicePlus extends JavaPlugin {
         getLogger().info("| Plugin: VoicePlus                    |");
         getLogger().info("| Created By: Clarkcj                  |");
         getLogger().info("| Contributions By: willies952002      |");
-        getLogger().info("| Version: 1.7.5-dev                     |");
+        getLogger().info("| Version: 2.0-dev                     |");
         getLogger().info("|======================================|");
     }
 
@@ -50,6 +50,10 @@ public class VoicePlus extends JavaPlugin {
         getCommand("Discord").setExecutor(new DiscordExe());
         getCommand("DiscordInvite").setExecutor(new DiscordInvite());
         getCommand("Skype").setExecutor(new SkypeExe());
+        getCommand("Website").setExecutor(new WebsiteExe());
+        getCommand("IRC").setExecutor(new IRCExe());
+        getCommand("fb").setExecutor(new FacebookExe());
+        getCommand("donate").setExecutor(new DonateExe());
     }
 
     private void registerEvents() {
