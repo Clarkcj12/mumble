@@ -20,7 +20,6 @@ public class MumbleInfo implements CommandExecutor {
     int MServer;
     int MPort;
 
-
     public boolean onCommand(CommandSender s, Command c, String label, String[] a) {
         if (s instanceof Player) {
             Player p = ((Player) s);
