@@ -25,12 +25,32 @@
 
     <repositories>
         <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>mvdw-software</id>
+            <url>http://repo.mvdw-software.be/content/groups/public/</url>
+        </repository>
+        <repository>
             <id>bstats-repo</id>
             <url>http://repo.bstats.org/content/repositories/releases/</url>
         </repository>
     </repositories>
 
     <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.11.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>be.maximvdw</groupId>
+            <artifactId>MVdWPlaceholderAPI</artifactId>
+            <version>1.0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
@@ -90,6 +110,7 @@
                     <relocations>
                         <relocation>
                             <pattern>org.bstats</pattern>
+                            <!-- Replace this with your package! -->
                             <shadedPattern>us.mcthemeparks</shadedPattern>
                         </relocation>
                     </relocations>
@@ -105,4 +126,12 @@
             </plugin>
         </plugins>
     </build>
+</project>
+                        </relocation>
+                    </relocations>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
