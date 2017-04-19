@@ -36,7 +36,7 @@ public class VoicePlus extends JavaPlugin {
         getLogger().info("| Plugin: VoicePlus                    |");
         getLogger().info("| Created By: Clarkcj                  |");
         getLogger().info("| Contributions By: willies952002      |");
-        getLogger().info("| Version: 2.0-dev                     |");
+        getLogger().info("| Version: 2.1-dev                     |");
         getLogger().info("|======================================|");
     }
 

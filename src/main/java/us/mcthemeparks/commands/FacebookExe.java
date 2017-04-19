@@ -23,7 +23,7 @@ public class FacebookExe implements CommandExecutor{
         if (s instanceof Player){
             Player p = ((Player) s);
             if (a.length > 0){
-                s.sendMessage(ChatColor.GOLD + "FacebookExe Page:" + fb);
+                s.sendMessage(ChatColor.GOLD + "FaceBook Page:" + fb);
             }
         }
         return true;
