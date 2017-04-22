@@ -1,20 +1,22 @@
 # This Is The Configuration File For VoicePlus
 # Authors: Corey Clark (Clarkcj), and William Surgeon (willies952002)
-# Version 2.0-dev
+# Version 2.6-dev
 
-# Voice Server Message Configuration
+# Mumble Server Configuration
 MServer: '<Mumble Server Address>'
 MPort: '<Mumble Port>'
+# TeamSpeak Server Configuration
 TServer: '<Team Speak Server Address>'
 TPort: '<Team Speak Port>'
 
 # Voice Program Invite Links
+# Discord Only Note, in order to allow everyday access to your Discord
+# through the invite link make sure to select does not expire.
 Discord: '<Discord Invite Link>'
 Skype: '<Skype Group Invite Link>'
 
 # IRC Server Message Configuration
 IRCServer: '<IRC Server Address & Port>' #Add Like this 127.1.1.07:2012
-#IRCport: Might be renabled if requests warrent.
 IRChan: '<IRC Channel>'
 
 # Social Platforms
