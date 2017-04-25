@@ -1,6 +1,6 @@
 # This Is The Configuration File For VoicePlus
 # Authors: Corey Clark (Clarkcj), and William Surgeon (willies952002)
-# Version 2.7-dev
+# Version 2.7.1
 
 # Mumble Server Configuration
 MServer: '<Mumble Server Address>'
@@ -23,3 +23,6 @@ IRChan: '<IRC Channel>'
 Website: '<Website Link>'
 Fb: '<Facebook Page>'
 Donate: '<Donation Site>'
+
+# Metrics Setting (true = enabled, false = disabled)
+metrics: true

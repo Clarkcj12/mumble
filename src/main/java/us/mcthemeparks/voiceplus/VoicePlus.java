@@ -23,8 +23,7 @@ public class VoicePlus extends JavaPlugin {
     public void onEnable() {
         instance = this;
         enableMessage();
-        saveDefaultConfig();
-        startMetrics();
+        if (VoicePlusConfig.enableMetrics) startMetrics();
         new VoicePlusConfig();
         ACF.createManager(this).registerCommand(new VoicePlusCommands());
     }
@@ -34,7 +33,7 @@ public class VoicePlus extends JavaPlugin {
         getLogger().info("| Plugin: VoicePlus                    |");
         getLogger().info("| Created By: Clarkcj                  |");
         getLogger().info("| Contributions By: willies952002      |");
-        getLogger().info("| Version: 2.6-dev                     |");
+        getLogger().info("| Version: 2.7.1                       |");
         getLogger().info("|======================================|");
     }
 

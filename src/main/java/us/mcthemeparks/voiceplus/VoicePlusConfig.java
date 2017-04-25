@@ -6,8 +6,11 @@ import com.domnian.mcutils.config.MagicConfig;
 public class VoicePlusConfig extends MagicConfig {
 
     public VoicePlusConfig() {
-        super(VoicePlus.instance, "config", VoicePlusConfig.class, 1);
+        super(VoicePlus.instance, "config", VoicePlusConfig.class, 2);
     }
+
+    @ConfigNode("metrics")
+    public static boolean enableMetrics = true;
 
     @ConfigNode("Discord")
     public static String discordInvite = "<Discord Invite Link>";
