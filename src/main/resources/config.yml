@@ -1,6 +1,6 @@
 # This Is The Configuration File For VoicePlus
 # Authors: Corey Clark (Clarkcj), and William Surgeon (willies952002)
-# Version 2.6-dev
+# Version 2.7-dev
 
 # Mumble Server Configuration
 MServer: '<Mumble Server Address>'

@@ -1,48 +1,48 @@
 name: VoicePlus
-main: us.mcthemeparks.VoicePlus
-version: 2.1-dev
+main: us.mcthemeparks.voiceplus.VoicePlus
+version: 2.7
 authors: [Clarkcj, willies952002]
 
 description: Tells The Players What the Server's Voice Server Address is.
-commands:
-  teamspeakinfo:
-    description: Sends TeamSpeak Information
-    aliases: tsinfo
-    usage: /<command>
-  mumbleinfo:
-    description: Sends Mumble Information
-    aliases: minfo
-    usage: /<command>
-  voiceplus:
-    description: Sends Mumble Download Link
-    aliases: mumble
-    usage: /<command>
-  teamspeak:
-    description: Sends Teamspeak Download Link
-    aliases: ts
-    usage: /<command>
-  DiscordInvite:
-    descirption: Sends Discord Invite Link
-    aliases : di
-    usage: /<command>
-  Discord:
-    description: Sends Link About Discord
-    usage: /<command>
-  Skype:
-    description: Sends User Link To Join Skype Group
-    usage: /<command>
-  website:
-    description: Sends User Website
-    aliases: web
-    usage: /<command>
-  IRC:
-    description: Sends User IRC Info
-    aliases: irc
-    usage: /<command>
-  donate:
-    description: Sends Donation Website
-    usage: /<command>
-  facebook:
-    description: Sends Facebook Page
-    aliases: fb
-    usage: /<command>
+#commands:
+#  teamspeakinfo:
+#    description: Sends TeamSpeak Information
+#    aliases: tsinfo
+#    usage: /<command>
+#  mumbleinfo:
+#    description: Sends Mumble Information
+#    aliases: minfo
+#    usage: /<command>
+#  voiceplus:
+#    description: Sends Mumble Download Link
+#    aliases: mumble
+#    usage: /<command>
+#  teamspeak:
+#    description: Sends Teamspeak Download Link
+#    aliases: ts
+#    usage: /<command>
+#  DiscordInvite:
+#    descirption: Sends Discord Invite Link
+#    aliases : di
+#    usage: /<command>
+#  Discord:
+#    description: Sends Link About Discord
+#    usage: /<command>
+#  Skype:
+#    description: Sends User Link To Join Skype Group
+#    usage: /<command>
+#  website:
+#    description: Sends User Website
+#    aliases: web
+#    usage: /<command>
+#  IRC:
+#    description: Sends User IRC Info
+#    aliases: irc
+#    usage: /<command>
+#  donate:
+#    description: Sends Donation Website
+#    usage: /<command>
+#  facebook:
+#    description: Sends Facebook Page
+#    aliases: fb
+#    usage: /<command>

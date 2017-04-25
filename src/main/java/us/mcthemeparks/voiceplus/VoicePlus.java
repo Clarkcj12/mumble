@@ -1,9 +1,8 @@
-package us.mcthemeparks;
+package us.mcthemeparks.voiceplus;
 
-import com.domnian.util.TaskChain;
+import co.aikar.commands.ACF;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.mcstats.Metrics;
-import us.mcthemeparks.commands.*;
+
 import java.io.IOException;
 
 /**
@@ -25,10 +24,9 @@ public class VoicePlus extends JavaPlugin {
         instance = this;
         enableMessage();
         saveDefaultConfig();
-        registerEvents();
         startMetrics();
-        TaskChain.initialize(this);
-        registerCommands();
+        new VoicePlusConfig();
+        ACF.createManager(this).registerCommand(new VoicePlusCommands());
     }
 
     private void enableMessage() {
@@ -40,30 +38,11 @@ public class VoicePlus extends JavaPlugin {
         getLogger().info("|======================================|");
     }
 
-    public void registerCommands() {
-        getLogger().info("Registering Commands");
-        getCommand("VoicePlus").setExecutor(new VoicePlusExe());
-        getCommand("MumbleInfo").setExecutor(new MumbleInfo());
-        getCommand("TeamSpeak").setExecutor(new TeamSpeakExe());
-        getCommand("TeamSpeakInfo").setExecutor(new TeamSpeakInfo());
-        getCommand("Discord").setExecutor(new DiscordExe());
-        getCommand("DiscordInvite").setExecutor(new DiscordInvite());
-        getCommand("Skype").setExecutor(new SkypeExe());
-        getCommand("Website").setExecutor(new WebsiteExe());
-        getCommand("IRC").setExecutor(new IRCExe());
-        getCommand("fb").setExecutor(new FacebookExe());
-        getCommand("donate").setExecutor(new DonateExe());
-    }
-
-    private void registerEvents() {
-
-    }
-
     private void startMetrics() {
         try {
             getLogger().info("Starting Metrics");
-            Metrics metrics = new Metrics(this);
-            metrics.start();
+            new org.mcstats.Metrics(this).start();
+            new org.bstats.Metrics(this);
         } catch (IOException e) {
             getLogger().severe("Failed to Submit Metrics Data to MCStats");
         }
@@ -73,4 +52,5 @@ public class VoicePlus extends JavaPlugin {
     public void onDisable() {
 
     }
+
 }

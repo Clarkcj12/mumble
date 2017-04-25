@@ -10,14 +10,16 @@ This README would normally document whatever steps are necessary to get your app
 ### How do I get set up? ###
 
 * Just install the plugin into your plugins folder
-* For Configuration See Confiruation Section
-* Either Spigot or Bukkit version 1.8 - 1.10.*
+* For Configuration See Configuration Section
+* Either Spigot or Bukkit version 1.8 - 1.11.*
 
 ### Who do I talk to? ###
 
 * Either contact @Clarkcj or @willies952002
 
 ## Changelog
+
+*2.7 - All Commands rewritten using (ACF)[https://acf.emc.gs] and Configuration redone using MagicConfig
 
 *1.7.4 - Added Discord About, and Versioning Bump
 *1.7.3 - Added Discord Support
