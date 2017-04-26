@@ -10,7 +10,7 @@ public class VoicePlusCommands extends BaseCommand {
     @CommandAlias("discord")
     public void onDiscord(Player player) {
         Util.sendMsg(player, "&r");
-        Util.sendMsg(player, "&6Learn More About Discord at https://discordapp.com");
+        Util.sendMsg(player, "&6Learn More About Discord at &b&nhttps://discordapp.com");
         Util.sendMsg(player, "&r");
     }
 
