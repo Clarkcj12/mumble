@@ -85,4 +85,18 @@ public class VoicePlusCommands extends BaseCommand {
         Util.sendMsg(player, "&r");
     }
 
+    @CommandAlias("vphelp|vp|voiceplus")
+    public void onHelp(Player player) {
+        Util.sendMsg(player, "&6Voice Plus v&e" + VoicePlus.instance.getDescription().getVersion() + " &6Commands:");
+        Util.sendMsg(player, "&b-» &a/discord [invite] &6- &8 Display Discord Invite Link");
+        Util.sendMsg(player, "&b-» &a/donate &6- &8Display Link to Donation Store");
+        Util.sendMsg(player, "&b-» &a/facebook &6- &8Display Link to Facebook Page");
+        Util.sendMsg(player, "&b-» &a/irc &6- &8Display IRC Server & Channel Information");
+        Util.sendMsg(player, "&b-» &a/mumble [get] &6- &8Display Mumble Server Information");
+        Util.sendMsg(player, "&b-» &a/skype &6- &8Display Skype Group Invite Link");
+        Util.sendMsg(player, "&b-» &a/teamspeak [get] &6- &8Display TeamSpeak Server Information");
+        Util.sendMsg(player, "&b-» &a/ts3 [get] &6- &8Alias of /teamspeak");
+        Util.sendMsg(player, "&b-» &a/website &6- &8Display Server Website");
+    }
+
 }
