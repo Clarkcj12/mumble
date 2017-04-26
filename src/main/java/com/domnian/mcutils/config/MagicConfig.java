@@ -62,6 +62,7 @@ public class MagicConfig {
                     }
                 } catch (Exception e) {
                     Bukkit.getLogger().log(Level.SEVERE, "Error Setting Field " + field, e);
+                    Bukkit.getLogger().log(Level.SEVERE, "Tip: Try backing up your configuration and let the plugin regenerate a clean version", e);
                 }
             }
         }
