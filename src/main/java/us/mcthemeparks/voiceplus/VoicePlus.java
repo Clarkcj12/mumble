@@ -5,16 +5,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.IOException;
 
-/**
- * ==================================================================
- * Copyright McThemeParks Dev. (c) 2015. All Rights Reserved
- * Any Code contained within this document, and any associated APIs
- * with similar branding are the sole property of McThemeParks.
- * Distribution, reproduction, taking snippets, or claiming any
- * contents as your own will break the terms of the license, and
- * void any agreements with you, the third party. Thanks
- * ==================================================================
- */
 @SuppressWarnings({"unused", "deprecated"})
 public class VoicePlus extends JavaPlugin {
     public static VoicePlus instance;
