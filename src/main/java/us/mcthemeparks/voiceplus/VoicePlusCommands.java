@@ -46,14 +46,14 @@ public class VoicePlusCommands extends BaseCommand {
     @CommandAlias("mumble")
     public void onMumble(Player player) {
         Util.sendMsg(player, "&r");
-        Util.sendFMsg(player, "&6Mumble Server Address:&b %2 (Port %d)", VoicePlusConfig.mumbleServer, VoicePlusConfig.mumblePort);
+        Util.sendFMsg(player, "&6Mumble Server Address:&b %s (Port %d)", VoicePlusConfig.mumbleServer, VoicePlusConfig.mumblePort);
         Util.sendMsg(player, "&r");
     }
 
     @CommandAlias("mumble get")
     public void onMumbleGet(Player player) {
         Util.sendMsg(player, "&r");
-        Util.sendMsg(player, "&6Download Mumble at: https://mumble.sourceforge.net");
+        Util.sendMsg(player, "&6Download Mumble at: &b&nhttps://mumble.sourceforge.net");
         Util.sendMsg(player, "&r");
     }
 
