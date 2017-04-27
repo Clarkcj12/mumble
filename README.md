@@ -18,7 +18,7 @@ This README would normally document whatever steps are necessary to get your app
 * Either contact @Clarkcj or @willies952002
 
 ## Changelog
-
+*2.7.2 - Fixed output error due to configuration problems.
 *2.7 - All Commands rewritten using (ACF)[https://acf.emc.gs] and Configuration redone using MagicConfig
 
 *1.7.4 - Added Discord About, and Versioning Bump
