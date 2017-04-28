@@ -98,5 +98,4 @@ public class VoicePlusCommands extends BaseCommand {
         Util.sendMsg(player, "&b-» &a/ts3 [get] &6- &8Alias of /teamspeak");
         Util.sendMsg(player, "&b-» &a/website &6- &8Display Server Website");
     }
-
 }

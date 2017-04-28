@@ -26,5 +26,4 @@ import java.lang.annotation.Target;
 public @interface ConfigNode {
 
     String value();
-
 }

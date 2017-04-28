@@ -41,5 +41,4 @@ public class VoicePlus extends JavaPlugin {
     public void onDisable() {
 
     }
-
 }

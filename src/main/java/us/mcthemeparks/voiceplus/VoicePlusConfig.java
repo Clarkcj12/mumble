@@ -44,5 +44,4 @@ public class VoicePlusConfig extends MagicConfig {
 
     @ConfigNode("Website")
     public static String website = "<Website Link>";
-
 }

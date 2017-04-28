@@ -165,5 +165,4 @@ public class MagicConfig {
             Bukkit.getLogger().log(Level.SEVERE, "Could not save " + CONFIG_FILE, e);
         }
     }
-
 }
