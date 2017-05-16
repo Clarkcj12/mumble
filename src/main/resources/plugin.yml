@@ -22,7 +22,7 @@ description: Tells The Players What the Server's Voice Server Address is.
 #    aliases: ts
 #    usage: /<command>
 #  DiscordInvite:
-#    descirption: Sends Discord Invite Link
+#    description: Sends Discord Invite Link
 #    aliases : di
 #    usage: /<command>
 #  Discord:
