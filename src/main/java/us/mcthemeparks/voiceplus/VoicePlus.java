@@ -1,11 +1,11 @@
 package us.mcthemeparks.voiceplus;
 
-import co.aikar.commands.ACF;
+import co.aikar.commands.BukkitCommandManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.IOException;
 
-@SuppressWarnings({"unused", "deprecated"})
+@SuppressWarnings({"unused", "deprecated", "expression"})
 public class VoicePlus extends JavaPlugin {
     public static VoicePlus instance;
 
@@ -15,7 +15,8 @@ public class VoicePlus extends JavaPlugin {
         enableMessage();
         if (VoicePlusConfig.enableMetrics) startMetrics();
         new VoicePlusConfig();
-        ACF.createManager(this).registerCommand(new VoicePlusCommands());
+        BukkitCommandManager manager = new BukkitCommandManager(this);
+        manager.registerCommand(new VoicePlusCommands());
     }
 
     private void enableMessage() {
@@ -23,7 +24,7 @@ public class VoicePlus extends JavaPlugin {
         getLogger().info("| Plugin: VoicePlus                    |");
         getLogger().info("| Created By: Clarkcj                  |");
         getLogger().info("| Contributions By: willies952002      |");
-        getLogger().info("| Version: 2.7.2                       |");
+        getLogger().info("| Version: 2.7.3                       |");
         getLogger().info("|======================================|");
     }
 
@@ -39,6 +40,5 @@ public class VoicePlus extends JavaPlugin {
 
     @Override
     public void onDisable() {
-
     }
 }
