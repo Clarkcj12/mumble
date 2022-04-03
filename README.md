@@ -11,7 +11,7 @@ This README would normally document whatever steps are necessary to get your app
 
 * Just install the plugin into your plugins folder
 * For Configuration See Configuration Section
-* Either Spigot or Bukkit version 1.8 - 1.11.*
+* Either Spigot or Bukkit version 1.8 - 1.14.*
 
 ### Who do I talk to? ###
 
